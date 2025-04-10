@@ -1,0 +1,48 @@
+@import url()
+
+:root {
+    
+    /* Fonts */
+
+    --title: 'EB GARAMOND', serif;
+    --main-font: 'Roboto', serif;
+
+    /* Colors */
+
+    /* Utils */
+
+
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--main-font);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--title);
+    background-color: white;
+}
+
+main {
+    flex: 1 0 auto;
+    ;
+}
+
+.logo {
+    
+}
+
+/* Footer */
+
+footer {
+    flex-shrink: 0;
+}
+
+/* Header */
+
